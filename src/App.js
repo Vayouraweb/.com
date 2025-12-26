@@ -10,11 +10,13 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import { Toaster } from "./components/ui/toaster";
+import ScrollToTop from "./components/ScrollToTop"; // ✅ NEW
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter basename="/.com">
+        <ScrollToTop /> {/* ✅ THIS FIXES FOOTER SCROLL ISSUE */}
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
