@@ -1,16 +1,25 @@
 // Mock data for VAYORA_WEB website
 
 export const portfolioProjects = [
-  {
-    id: 1,
-    title: "TECH Business Solution",
-    category: "Business",
-    description: "Modern business website with comprehensive service showcase",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    url: "https://vayouraweb.github.io/TECH/",
-    technologies: ["React", "Tailwind CSS", "Animation"]
+    {
+    id: 8,
+    title: "HugoseaFood Restaurant",
+    category: "Restaurant",
+    description: "Seafood restaurant with online ordering system",
+    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+    url: "https://vayouraweb.github.io/HugoseaFood/",
+    technologies: ["React", "E-commerce", "Payment Gateway"]
   },
-  {
+   {
+    id: 12,
+    title: "Nova Air Duct Cleaning",
+    category: "Business",
+    description: "Professional service website with lead generation",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+    url: "https://novaairductcleaning.ca/",
+    technologies: ["WordPress", "SEO", "Lead Forms"]
+  },
+   {
     id: 2,
     title: "Baresto Restaurant",
     category: "Restaurant",
@@ -20,18 +29,28 @@ export const portfolioProjects = [
     technologies: ["HTML", "CSS", "JavaScript"]
   },
   {
-    id: 3,
-    title: "Luxe Salon",
-    category: "Salon",
-    description: "Premium salon website with service booking and gallery",
-    image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80",
-    url: "https://vayouraweb.github.io/salon/",
-    technologies: ["React", "CSS3", "Booking System"]
+    id: 1,
+    title: "TECH Business Solution",
+    category: "Business",
+    description: "Modern business website with comprehensive service showcase",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    url: "https://vayouraweb.github.io/TECH/",
+    technologies: ["React", "Tailwind CSS", "Animation"]
   },
+ 
+ {
+  id: 3,
+  title: "Nail Beauty Salon",
+  category: "Salon",
+  description: "Premium salon website with service booking and gallery",
+  image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80",
+  url: "https://vayouraweb.github.io/micanail/",
+  technologies: ["React", "CSS3", "Booking System"]
+},
   {
     id: 4,
-    title: "Wave Water Park",
-    category: "Entertainment",
+    title: "Ice Cream Restro",
+    category: "Business",
     description: "Fun and vibrant water park website with ticket booking",
     image: "https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=800&q=80",
     url: "https://vayouraweb.github.io/wave/",
@@ -48,11 +67,11 @@ export const portfolioProjects = [
   },
   {
     id: 6,
-    title: "Dental Clinic Pro",
+    title: "Hospital Management",
     category: "Healthcare",
     description: "Professional dental clinic website with appointment system",
     image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80",
-    url: "https://vayouraweb.github.io/dentalclinic/",
+    url: "https://vayouraweb.github.io/chamanhospital/",
     technologies: ["React", "Appointment System", "Tailwind"]
   },
   {
@@ -64,15 +83,7 @@ export const portfolioProjects = [
     url: "https://vayouraweb.github.io/luxsalon/",
     technologies: ["HTML5", "CSS3", "Bootstrap"]
   },
-  {
-    id: 8,
-    title: "HugoseaFood Restaurant",
-    category: "Restaurant",
-    description: "Seafood restaurant with online ordering system",
-    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
-    url: "https://vayouraweb.github.io/HugoseaFood/",
-    technologies: ["React", "E-commerce", "Payment Gateway"]
-  },
+
   {
     id: 9,
     title: "BrainBloom Education",
@@ -100,15 +111,15 @@ export const portfolioProjects = [
     url: "https://vayouraweb.github.io/THE-CROWN-GYM/",
     technologies: ["React", "Booking System", "Animation"]
   },
-  {
-    id: 12,
-    title: "Nova Air Duct Cleaning",
-    category: "Services",
-    description: "Professional service website with lead generation",
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
-    url: "https://www.novaairductcleaning.ca",
-    technologies: ["WordPress", "SEO", "Lead Forms"]
-  }
+ {
+  id: 13,
+  title: "NvCreation Studio",
+  category: "Business",
+  description: "Dynamic Clothing website with stitching and styling",
+  image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&q=80",
+  url: "https://vayouraweb.github.io/nvcreation/",
+  technologies: ["React", "Booking System", "Animation"]
+}
 ];
 
 export const services = [
